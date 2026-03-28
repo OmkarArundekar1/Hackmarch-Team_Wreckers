@@ -18,5 +18,8 @@ pip install -r initial_code/requirements.txt
 ### 3. Run the App
 
 ```bash
-streamlit run initial_code/goodai_app.py
+streamlit run initial_code/app.py
 ```
+
+> **Dependencies:** `streamlit`, `anthropic`, `pandas`, `plotly` — all installed via step 2.
+
