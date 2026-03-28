@@ -1,0 +1,31 @@
+[
+  {
+    "user_id": 3,
+    "source": "watch",
+    "seqn": 62161,
+    "chronological_age": 22,
+    "biological_age": 24.8,
+    "age_gap": 2.8,
+    "confidence": 0.77,
+    "top_factors": [
+      "Circadian rhythm strength",
+      "Night activity disruption"
+    ],
+    "raw_signals": {
+      "night_activity_mean": 0.0,
+      "day_activity_mean": 1166.29,
+      "total_activity_mean": 1159.96,
+      "circadian_strength": 0.005
+    },
+    "ai_context": {
+      "summary": "This person is chronologically 22 but biologically 24.8.",
+      "risk_flag": "MODERATE",
+      "explainability_notes": [
+        "Biological age exceeds chronological age by 2.8 years",
+        "Night activity level: 0.0 counts/min",
+        "Day activity level: 1166.29 counts/min",
+        "Top contributing factors: Circadian rhythm strength, Night activity disruption"
+      ]
+    }
+  }
+]
